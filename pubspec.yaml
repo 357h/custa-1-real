@@ -1,0 +1,24 @@
+name: custa_1_real
+description: Um app gloriosamente inútil que custa 1 real.
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.17.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  audioplayers: ^5.2.1
+  pdf: ^3.10.1
+  printing: ^5.10.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/sounds/rain.mp3
